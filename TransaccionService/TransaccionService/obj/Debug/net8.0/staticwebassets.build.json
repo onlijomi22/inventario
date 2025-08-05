@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VWjvUThw+03EGPCDjT1uI1NmWuHHE447GDlsZXVtJQA=",
+  "Source": "TransaccionService",
+  "BasePath": "_content/TransaccionService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

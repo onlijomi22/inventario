@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  <h2>Registrar Transacción</h2>
+
+  <form [formGroup]="transaccionForm" (ngSubmit)="onSubmit()">
+    <div class="form-group mb-2">
+      <label>Tipo</label>
+      <select class="form-control" formControlName="tipo">
+        <option value="venta">Venta</option>
+        <option value="compra">Compra</option>
+      </select>
+    </div>
+
+    <div class="form-group mb-2">
+      <label>Producto</label>
+      <select class="form-control" formControlName="productoId">
+        <option *ngFor="let p of productos" [value]="p.id">{{ p.nombre }}</option>
+      </select>
+    </div>
+
+    <div class="form-group mb-2">
+      <label>Cantidad</label>
+      <input type="number" class="form-control" formControlName="cantidad">
+    </div>
+
+    <div class="form-group mb-2">
+      <label>Precio Unitario</label>
+      <input type="number" class="form-control" formControlName="precioUnitario">
+    </div>
+
+    <div class="form-group mb-2">
+      <label>Detalle</label>
+      <textarea class="form-control" formControlName="detalle"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a routerLink="/transacciones" class="btn btn-secondary ms-2">Cancelar</a>
+  </form>
+
+  <div *ngIf="mensaje" class="alert alert-success mt-3">{{ mensaje }}</div>
+  <div *ngIf="error" class="alert alert-danger mt-3">{{ error }}</div>
+</div>

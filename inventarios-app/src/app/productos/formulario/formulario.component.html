@@ -1,0 +1,64 @@
+<div class="container mt-4">
+<h2>Registrar Producto</h2>
+
+<form [formGroup]="productoForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+
+  <div class="mb-3">
+    <label class="form-label">Nombre:</label>
+    <input type="text" formControlName="nombre" class="form-control">
+    <div *ngIf="productoForm.get('nombre')?.invalid && productoForm.get('nombre')?.touched" class="text-danger">
+      El nombre es obligatorio.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Descripción:</label>
+    <input type="text" formControlName="descripcion" class="form-control">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Categoría:</label>
+    <select formControlName="categoria" class="form-select">
+      <option value="">Seleccione una categoría</option>
+      <option value="Tecnología">Tecnología</option>
+      <option value="Hogar">Hogar</option>
+    </select>
+    <div *ngIf="productoForm.get('categoria')?.invalid && productoForm.get('categoria')?.touched" class="text-danger">
+      La categoría es obligatoria.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Imagen:</label>
+    <input type="file" (change)="imagenSeleccionada($event)" class="form-control">
+    <div *ngIf="imagenPreview" class="mt-2">
+      <img [src]="imagenPreview" alt="Preview" width="150">
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Precio:</label>
+    <input type="number" formControlName="precio" class="form-control">
+    <div *ngIf="productoForm.get('precio')?.invalid && productoForm.get('precio')?.touched" class="text-danger">
+      El precio debe ser mayor que 0.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Stock:</label>
+    <input type="number" formControlName="stock" class="form-control">
+    <div *ngIf="productoForm.get('stock')?.invalid && productoForm.get('stock')?.touched" class="text-danger">
+      El stock no puede ser negativo.
+    </div>
+  </div>
+
+  <div class="d-flex gap-2">
+    <button type="button" routerLink="/productos" class="btn btn-secondary">Cancelar</button>
+    <button type="submit" class="btn btn-primary" [disabled]="productoForm.invalid">Guardar</button>
+  </div>
+
+</form>
+
+<div *ngIf="mensaje" class="alert alert-success mt-3">{{ mensaje }}</div>
+<div *ngIf="error" class="alert alert-danger mt-3">{{ error }}</div>
+</div>

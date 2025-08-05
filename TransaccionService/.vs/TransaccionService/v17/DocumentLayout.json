@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\model\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\model\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\transaccionservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\transaccionservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|c:\\users\\hp 2024\\source\\repos\\transaccionservice\\transaccionservice\\data\\transacciondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D40E94-0CD1-4C63-82C7-809A9106D2ED}|TransaccionService\\TransaccionService.csproj|solutionrelative:transaccionservice\\data\\transacciondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransaccionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Data\\TransaccionDbContext.cs",
+              "RelativeDocumentMoniker": "TransaccionService\\Data\\TransaccionDbContext.cs",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Data\\TransaccionDbContext.cs",
+              "RelativeToolTip": "TransaccionService\\Data\\TransaccionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T19:24:32.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\appsettings.json",
+              "RelativeDocumentMoniker": "TransaccionService\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\appsettings.json",
+              "RelativeToolTip": "TransaccionService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T19:21:52.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Program.cs",
+              "RelativeDocumentMoniker": "TransaccionService\\Program.cs",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Program.cs",
+              "RelativeToolTip": "TransaccionService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T19:40:53.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransaccionService",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\TransaccionService.csproj",
+              "RelativeDocumentMoniker": "TransaccionService\\TransaccionService.csproj",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\TransaccionService.csproj",
+              "RelativeToolTip": "TransaccionService\\TransaccionService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-03T19:24:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "TransaccionService\\Controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "TransaccionService\\Controllers\\TransaccionesController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv0UAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T19:23:09.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Model\\Transaccion.cs",
+              "RelativeDocumentMoniker": "TransaccionService\\Model\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Model\\Transaccion.cs",
+              "RelativeToolTip": "TransaccionService\\Model\\Transaccion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T19:25:45.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TransaccionService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP 2024\\source\\repos\\TransaccionService\\TransaccionService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TransaccionService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T19:21:41.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

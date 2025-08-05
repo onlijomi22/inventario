@@ -1,0 +1,84 @@
+<div class="container mt-4">
+  <div class="mb-3 d-flex justify-content-between align-items-center">
+  <h2>Historial de Transacciones</h2>
+  <div>
+    <a routerLink="/productos" class="btn btn-outline-primary me-2">
+      Ir a Productos
+    </a>
+    <a routerLink="/transacciones/nuevo" class="btn btn-primary">
+      Nueva Transacción
+    </a>
+  </div>
+</div>  
+  <!-- Filtros -->
+  <form [formGroup]="filtroForm" (ngSubmit)="obtenerTransacciones()" class="row g-3 mb-4">
+    <div class="col-md-2">
+      <input formControlName="productoId" type="number" class="form-control" placeholder="Producto ID">
+    </div>
+    <div class="col-md-2">
+      <select formControlName="tipo" class="form-select">
+        <option value="">Todos</option>
+        <option value="compra">Compra</option>
+        <option value="venta">Venta</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <input formControlName="desde" type="date" class="form-control">
+    </div>
+    <div class="col-md-3">
+      <input formControlName="hasta" type="date" class="form-control">
+    </div>
+    <div class="col-md-2 d-flex">
+      <button type="submit" class="btn btn-primary me-2">Buscar</button>
+      <button type="button" (click)="limpiar()" class="btn btn-secondary">Limpiar</button>
+    </div>
+  </form>
+
+  <!-- Tabla -->
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+  <table *ngIf="transacciones.length > 0" class="table table-bordered table-hover">
+    <thead class="table-light">
+      <tr>
+        <th>ID</th>
+        <th>Fecha</th>
+        <th>Tipo</th>
+        <th>Producto ID</th>
+        <th>Cantidad</th>
+        <th>Precio Unitario</th>
+        <th>Precio Total</th>
+        <th>Detalle</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of transaccionesPaginadas">
+        <td>{{ t.id }}</td>
+        <td>{{ t.fecha | date:'short' }}</td>
+        <td class="text-capitalize">{{ t.tipo }}</td>
+        <td>{{ t.productoId }}</td>
+        <td>{{ t.cantidad }}</td>
+        <td>{{ t.precioUnitario | currency }}</td>
+        <td>{{ t.precioTotal | currency }}</td>
+        <td>{{ t.detalle }}</td>
+        <td>                    
+            <button (click)="eliminar(t.id!)" class="btn btn-danger btn-sm">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="transacciones.length === 0" class="alert alert-info">
+    No se encontraron transacciones con los filtros aplicados.
+  </div>
+
+<nav *ngIf="totalPaginas > 1">
+  <ul class="pagination justify-content-center">
+    <li *ngFor="let page of [].constructor(totalPaginas); let i = index" class="page-item" [class.active]="paginaActual === (i + 1)">
+      <button class="page-link" (click)="cambiarPagina(i + 1)">{{ i + 1 }}</button>
+    </li>
+  </ul>
+</nav>
+
+
+</div>

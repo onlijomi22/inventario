@@ -1,0 +1,44 @@
+<div class="container mt-4">
+<h2>Lista de Productos</h2>
+<button routerLink="/productos/nuevo" class="btn btn-primary">
+  Nuevo producto
+</button>
+<table border="1" cellpadding="8" cellspacing="0" class="table table-bordered table-hover">
+  <thead class="table-light">
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+      <th>Categoría</th>
+      <th>Imagen</th>
+      <th>Precio</th>
+      <th>Stock</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of productosPaginados">
+      <td>{{ p.nombre }}</td>
+      <td>{{ p.descripcion }}</td>
+      <td>{{ p.categoria }}</td>
+      <td><img [src]="p.imagen" width="60" height="60" *ngIf="p.imagen"></td>
+      <td>{{ p.precio | currency }}</td>
+      <td>{{ p.stock }}</td>
+      <td>
+        <button (click)="eliminar(p.id)" class="btn btn-danger btn-sm">Eliminar</button>&nbsp;
+        <button routerLink="/productos/editar/{{ p.id }}" class="btn btn-primary">Editar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<nav *ngIf="totalPaginas > 1">
+  <ul class="pagination justify-content-center">
+    <li *ngFor="let page of [].constructor(totalPaginas); let i = index" class="page-item" [class.active]="paginaActual === (i + 1)">
+      <button class="page-link" (click)="cambiarPagina(i + 1)">{{ i + 1 }}</button>
+    </li>
+  </ul>
+</nav>
+<button routerLink="/transacciones" class="btn btn-primary">
+  Regresar
+</button>
+</div>
+
